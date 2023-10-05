@@ -55,8 +55,6 @@ class MySendTransportListener:NSObject,SendTransportListener{
         }
     }
 }
-
-
 //Receive pipeline monitoring
 class MyRecvTransportListener : NSObject, RecvTransportListener{
     public var helper:RequestHelper!
